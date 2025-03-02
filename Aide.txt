@@ -1,0 +1,14 @@
+Projet 7 fais en react
+
+
+
+Présenter votre profil de développeur : la ou les formation(s) suivie(s) et vos compétences. 
+
+Présenter au moins 2 projets sur lesquels vous avez travaillé, durant votre formation ou ailleurs. Pour chaque projet, il faudra afficher :
+une courte description de votre réalisation ;
+les compétences qu’il vous a permis de développer ;
+un lien vers le code ou le site (sur GitHub, par exemple). 
+
+Être accessible en ligne via internet. Nous vous conseillons de déployer votre site sur GitHub Pages, mais vous pouvez aussi opter pour une autre solution.
+
+Être responsive : c’est-à-dire s’afficher correctement sur mobile et tablette. 
