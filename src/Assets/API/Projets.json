@@ -1,26 +1,37 @@
 [
     {
         "id": "Projet 6",
-        "image": "src/Assets/Images/sophie-bluel.png",
+        "image": "src/Assets/Images/Background/sophie-bluel-background.png",
+        "logo": "src/Assets/Images/Logo/sophie-bluel-LOGO2.png",
         "title": "SOPHIE BLUEL",
-        "content": ""
+        "website": "",
+        "github": "",
+        "content": "JAVA SCRIPT"
     },
     {
-        "id": "Projet 2",
-        "image": "src/Assets/Images/",
+        "id": "Projet 7",
+        "image": "src/Assets/Images/Background/Kasa-background.jpg",
+        "logo": "src/Assets/Images/Logo/Kasa-LOGO.png",
         "title": "Kasa",
-        "content": ""
-    },
-    {
-        "id": "Projet 3",
-        "image": "src/Assets/Images/",
-        "title": "Nom du Projet3",
-        "content": ""
+        "website": "",
+        "github": "",
+        "content": "REACT"
     },
     {
         "id": "Projet 4",
-        "image": "src/Assets/Images/",
-        "title": "Nom du Projet4",
-        "content": ""
+        "image": "src/Assets/Images/Background/ohmyfood-background2.jpg",
+        "imagemodal": "src/Assets/Images/Background/ohmyfood-Homepage.png",
+        "logo": "src/Assets/Images/Logo/ohmyfood-LOGO2.png",
+        "title": "Ohmyfood",
+        "titlemodal": "Ohmyfood - Restauration",
+        "website": "https://neyldev.github.io/Projet4/",
+        "github": "https://github.com/Neyldev/Projet4",
+        "description": "OhMyFood est une plateforme innovante qui met en avant des restaurants gastronomiques en permettant aux utilisateurs de consulter leurs menus et leurs prix avant même de se rendre sur place.",
+        "features": [
+            "Développé en mobile first",
+            "Site entièrement responsive",
+            "Animations CSS fluides et interactives",
+            "Utilisation de SASS"
+        ]
     }
 ]
