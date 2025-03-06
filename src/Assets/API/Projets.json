@@ -1,27 +1,43 @@
 [
     {
         "id": "Projet 6",
-        "image": "public/Assets/Images/Background/sophie-bluel-background.png",
-        "logo": "public/Assets/Images/Logo/sophie-bluel-LOGO2.png",
+        "image": "https://i.imgur.com/Bkdh0mY.png",
+        "imagemodal": "https://i.imgur.com/La8OAhe.png",
+        "logo": "https://i.imgur.com/PSK4rum.png",
         "title": "SOPHIE BLUEL",
-        "website": "",
-        "github": "",
-        "content": "JAVA SCRIPT"
+        "titlemodal": "SOPHIE BLUEL - Architecte d'intérieur",
+        "website": "https://neyldev.github.io/Projet_6/",
+        "github": "https://github.com/Neyldev/Projet_6",
+        "description": "Le site de Sophie Bluel est un portfolio interactif mettant en avant le travail de l'artiste. Il comprend un système de connexion sécurisé permettant à l'administrateur de gérer et de modifier les contenus du site via des modales intuitives et conviviales.",
+        "features": [
+            "Mise en place du frontend uniquement",
+            "Site entièrement responsive",
+            "système de Login",
+            "Utilisation de JavaScript pour des interactions dynamiques"
+        ]
     },
     {
         "id": "Projet 7",
-        "image": "public/Assets/Images/Background/Kasa-background.jpg",
-        "logo": "public/Assets/Images/Logo/Kasa-LOGO.png",
+        "image": "https://i.imgur.com/f1mu0Wt.jpeg",
+        "imagemodal": "https://i.imgur.com/HxeNh5z.png",
+        "logo": "https://i.imgur.com/1AfZshh.png",
         "title": "Kasa",
-        "website": "",
-        "github": "",
-        "content": "REACT"
+        "titlemodal": "Kasa - Immobilier",
+        "website": "https://neyldev.github.io/Projet7/",
+        "github": "https://github.com/Neyldev/Projet7",
+        "description": "Kasa est une plateforme dédiée à la location d'appartements et de maisons, permettant aux utilisateurs de consulter facilement les annonces. Le site met l'accent sur la simplicité d'utilisation et une navigation fluide pour offrir une expérience agréable et intuitive",
+        "features": [
+            "Développé sous React + Vite",
+            "Site entièrement responsive",
+            "Animations CSS fluides et interactives",
+            "HTML5 - CSS"
+        ]
     },
     {
         "id": "Projet 4",
-        "image": "public/Assets/Images/Background/ohmyfood-background2.jpg",
-        "imagemodal": "public/Assets/Images/Background/ohmyfood-Homepage.png",
-        "logo": "public/Assets/Images/Logo/ohmyfood-LOGO2.png",
+        "image": "https://i.imgur.com/lNhQe0K.jpeg",
+        "imagemodal": "https://i.imgur.com/JAroA0s.png",
+        "logo": "https://i.imgur.com/Gpa6spT.png",
         "title": "Ohmyfood",
         "titlemodal": "Ohmyfood - Restauration",
         "website": "https://neyldev.github.io/Projet4/",

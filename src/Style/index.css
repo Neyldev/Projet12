@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -12,8 +16,9 @@ h2 {
     text-align: center;
     color: #E67E22;
     font-size: 2rem;
-    padding: 60px 0px 40px 0px;
+    padding: 80px 0px 40px 0px;
     margin: 0px;
+    scroll-margin-top: 100px
 }
 
 h3 {
@@ -22,10 +27,13 @@ h3 {
 }
 
 hr {
+
     border: 1px solid #eeeeee;
+    margin: 20px 0;
 }
 
-/* Header */
+
+/*----------------------- Header -----------------------*/
 /* Navbar */
 .header {
     display: flex;
@@ -76,23 +84,24 @@ hr {
     color: #D35400;
 }
 
-/* Footer */
+/*----------------------- Footer -----------------------*/
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #333333;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 1rem;
     height: 100px;
 }
 
-/* PRESENTATION */
+/*----------------------- PRESENTATION -----------------------*/
 #presentation {
     margin: auto;
-    padding: 80px 20px 20px;
-    background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+    padding: 80px 20px 0px;
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8);
 }
 
 #presentation p {
@@ -106,17 +115,18 @@ footer p {
     color: #555555;
     width: 70%;
     margin: auto;
-    padding: 75px;
+    padding: 25px;
 }
 
-/* PROJETS */
+/*----------------------- PROJETS -----------------------*/
 #projets {
-    background: linear-gradient(to bottom, #f7f7f7, #f0f0f0);
+    background: linear-gradient(to bottom, #f8f8f8, #f0f0f0);
 }
 
 .container-projets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0% 2%;
     gap: 20px;
 }
 
@@ -163,12 +173,55 @@ footer p {
     opacity: 1;
 }
 
-/* CONTACT */
+
+/*----------------------- COMPETENCES -----------------------*/
+
+.competences-container {
+    text-align: center;
+    padding: 60px 20px 20px;
+    background: linear-gradient(to bottom, #f0f0f0, #e7e7e7);
+}
+
+.competences-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 3rem;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555555;
+    font-weight: 500;
+}
+
+.competences-icons i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.competences-icons i:hover {
+    transform: scale(1.2);
+    color: #E67E22;
+    /* Vous pouvez changer la couleur */
+}
+
+
+
+/*----------------------- CONTACT -----------------------*/
 #contact {
     width: 100%;
     margin: auto;
-    background: linear-gradient(to bottom, #f7f7f7, #f0f0f0);
-    /* Douce transition entre gris clair et gris pâle */
+    background: linear-gradient(to bottom, #e7e7e7, #ffffff);
 }
 
 
@@ -203,7 +256,8 @@ input[type="submit"] {
     font-family: 'Syne';
     font-weight: 700;
     color: white;
-    background-color: #27AE60;
+    background-color: #D35400;
+    /* Couleur de base adoucie */
     margin: 2em auto;
     width: 180px;
     text-align: center;
@@ -212,20 +266,22 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #2ECC71;
+    background-color: #D35400;
+    /* Couleur plus vive au hover */
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     transform: scale(1.10);
     transition: all 0.3s ease;
 }
 
 input[type="submit"]:not(:hover) {
-    background-color: #27AE60;
+    background-color: #E67E22;
+    /* Même couleur que celle définie plus haut */
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
     transform: scale(1);
 }
 
-/*-----------------------/ Modale /-----------------------*/
 
+/*-----------------------/ Modale /-----------------------*/
 
 .Modal {
     position: fixed;
@@ -240,26 +296,27 @@ input[type="submit"]:not(:hover) {
     z-index: 1000;
 }
 
-/* Contenu de la modale */
+
 .Modal-content {
     background: #FFFFFF;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 700px;
-    width: 100%;
+    width: 90%;
     position: relative;
     color: #333333;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Bouton de fermeture */
 .close-btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     font-size: 18px;
     border: none;
     cursor: pointer;
     color: #333333;
+    background: transparent;
 }
 
 .close-btn:hover {
@@ -267,48 +324,76 @@ input[type="submit"]:not(:hover) {
     transition: color 0.3s ease;
 }
 
-/* Image de fond */
+
 .modal-homepage {
     width: 100%;
     margin-top: 10px;
     max-height: 300px;
     object-fit: cover;
-
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
 .info-projet {
     display: flex;
     gap: 40px;
+    margin-top: 20px;
 }
 
 .info-projet div {
     width: 50%;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.info-projet h3 {
+    color: #E67E22;
 }
 
 
+.info-projet ul {
+    list-style-type: none;
+    padding: 0;
+}
 
 .info-projet ul li {
     margin-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
 }
+
+.info-projet ul li::before {
+    content: "•";
+    color: #E67E22;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 
 .link-site {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
 }
 
 .link-site a {
     text-decoration: none;
     color: #333333;
-}
-
-.link-site a {
-    text-decoration: none;
-    color: #333333;
-
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid #E67E22;
+    transition: all 0.3s ease;
 }
 
 .link-site a:hover {
-    color: #D35400;
-    transition: color 0.3s ease;
+    background-color: #E67E22;
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
