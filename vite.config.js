@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/Projet12/',
   resolve: {
-    base: '/Projet12/',
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
