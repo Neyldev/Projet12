@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    base: '/',
+    base: '/Projet12/',
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
