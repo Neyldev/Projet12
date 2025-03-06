@@ -8,9 +8,8 @@ const PublicRouter = () => {
     return (
         <Routes>
             <Route element={<Layout />}>
-                {/* <Route path="" element={<Navigate to="/Home" />} /> */}
-                <Route path="/home" element={<Home />} />
-                <Route path="*" element={<Navigate to="/Home" />} />
+                <Route path="/Projet12" element={<Home />} />
+                <Route path="*" element={<Navigate to="/Projet12" />} />
             </Route>
         </Routes>
     );
