@@ -23,7 +23,6 @@ h2 {
 
 h3 {
     text-align: center;
-    margin: ;
 }
 
 hr {
@@ -130,20 +129,6 @@ footer {
     gap: 20px;
 }
 
-@media (max-width: 1024px) {
-    .container-projets {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .container-projets {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-
-
 
 #projets .project_card {
     background: white;
@@ -187,6 +172,20 @@ footer {
 #projets .project_card .containerImg:hover .logo {
     opacity: 1;
 }
+
+/*----------------------- Media PROJETS -----------------------*/
+@media (max-width: 1024px) {
+    .container-projets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container-projets {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 
 /*----------------------- COMPETENCES -----------------------*/
@@ -337,13 +336,16 @@ input[type="submit"]:not(:hover) {
 
 .modal-homepage {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
     max-height: 300px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
+}
 
 .info-projet {
     display: flex;
@@ -406,4 +408,43 @@ input[type="submit"]:not(:hover) {
     color: white;
     border-color: transparent;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*-----------------------/ Media Modale /-----------------------*/
+@media (max-width: 1024px) {
+    .Modal-content {
+        max-height: 85%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .info-projet {
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .modal-homepage {
+        width: 0%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .link-site {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    hr {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    h3 {
+        margin-top: 0px;
+    }
 }
