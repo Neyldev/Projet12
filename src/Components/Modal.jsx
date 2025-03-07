@@ -41,7 +41,11 @@ const Modal = ({ StatuModal, project, closeModal }) => {
                     <hr />
 
                     <div className='link-site'>
-                        <a href={project?.website} target="_blank" rel="noopener noreferrer">Site</a>
+                        {project?.website && (
+                            <a href={project.website} target="_blank" rel="noopener noreferrer">
+                                Site
+                            </a>
+                        )}
                         <a href={project?.github} target="_blank" rel="noopener noreferrer">Github</a>
                     </div>
 
