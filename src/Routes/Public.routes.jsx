@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import { Home, Error404 } from '@/Pages/Public/Index';
+import { Home } from '@/Pages/Public/Index';
 
 import Layout from '@/Layouts/Layout';
 

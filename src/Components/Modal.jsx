@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const Modal = ({ StatuModal, project, closeModal }) => {
-
-    useEffect(() => {
-    }, [StatuModal]);
 
     return (
         StatuModal && (
@@ -11,10 +8,7 @@ const Modal = ({ StatuModal, project, closeModal }) => {
                 <div className="Modal-content" onClick={(e) => e.stopPropagation()}>
 
                     <i className="fa-solid fa-xmark close-btn" onClick={closeModal}></i>
-
                     <h3 className="modal-title">{project?.titlemodal}</h3>
-
-
                     <img className="modal-homepage" src={project?.imagemodal} alt={project?.title} />
 
 
@@ -28,8 +22,6 @@ const Modal = ({ StatuModal, project, closeModal }) => {
                                 ))}
                             </ul>
                         </div>
-
-
 
                         <div>
                             <h3>Présentation du projet</h3>

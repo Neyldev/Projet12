@@ -6,7 +6,7 @@ import projectsData from '@/Assets/API/Projets.json';
 
 const Projets = () => {
     return (
-        <div id='projets'>
+        <section id='projets'>
             <h2>Mes Projets</h2>
             <div className='container-projets'>
 
@@ -14,7 +14,7 @@ const Projets = () => {
                     <Projets_cards key={project.id} project={project} />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

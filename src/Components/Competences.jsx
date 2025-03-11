@@ -2,7 +2,7 @@ import React from 'react';
 
 const Competences = () => {
     return (
-        <div id='competences' className="competences-container">
+        <section id='competences' className="competences-container">
             <h2>Mes Compétences</h2>
             <div className="competences-icons">
                 <div className="icon">
@@ -30,7 +30,7 @@ const Competences = () => {
                     <p>Redux</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
