@@ -191,7 +191,21 @@ footer {
     }
 }
 
+@media (max-width: 1024px) {
 
+    .info-projet p,
+    .info-projet li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .info-projet p,
+    .info-projet li {
+        font-size: 12px;
+    }
+}
 
 /*----------------------- COMPETENCES -----------------------*/
 

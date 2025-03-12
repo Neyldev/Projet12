@@ -8,7 +8,7 @@
         "titlemodal": "SOPHIE BLUEL - Architecte d'intérieur",
         "website": "",
         "github": "https://github.com/Neyldev/Projet_6",
-        "description": "Le site de Sophie Bluel est un portfolio interactif mettant en avant le travail de l'artiste. Il comprend un système de connexion sécurisé permettant à l'administrateur de gérer et de modifier les contenus du site via des modales intuitives et conviviales.",
+        "description": "Le site de Sophie Bluel met en avant le travail de l'artiste. Il comprend un système de connexion sécurisé permettant à l'administrateur de gérer et de modifier les contenus du site via des modales.",
         "features": [
             "Mise en place du frontend uniquement",
             "Site entièrement responsive",
@@ -25,7 +25,7 @@
         "titlemodal": "Kasa - Immobilier",
         "website": "https://neyldevkasa.netlify.app",
         "github": "https://github.com/Neyldev/Projet7",
-        "description": "Kasa est une plateforme dédiée à la location d'appartements et de maisons, permettant aux utilisateurs de consulter facilement les annonces. Le site met l'accent sur la simplicité d'utilisation et une navigation fluide pour offrir une expérience agréable et intuitive",
+        "description": "Kasa est une plateforme dédiée à la location d'appartements et de maisons, permettant aux utilisateurs de consulter facilement les annonces.",
         "features": [
             "Développé sous React + Vite",
             "Site entièrement responsive",
